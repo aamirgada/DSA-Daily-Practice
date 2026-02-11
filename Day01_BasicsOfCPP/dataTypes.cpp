@@ -16,10 +16,14 @@ int main() {
     int sizeOfFloat = sizeof(b);
     int sizeOfChar = sizeof(c);
     int sizeOfBool = sizeof(d);
+    // Size of Integer: 4 bytes
     cout << "Size of Integer: " << sizeOfInt << " bytes" << endl;
+    // Size of Float: 4 bytes
     cout << "Size of Float: " << sizeOfFloat << " bytes" << endl;
+    // Size of Character: 1 byte
     cout << "Size of Character: " << sizeOfChar << " bytes" << endl;
+    // Size of Boolean: 1 byte
     cout << "Size of Boolean: " << sizeOfBool << " bytes" << endl;
-    
+
     return 0;
 }
